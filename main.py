@@ -26,6 +26,5 @@ def convert_dot_to_under_bar(file):
     new_file.close()
 
 if __name__ == "__main__":
-    # path = input("enter file path to convert")
-    path = "/Users/softmarshmallow/Downloads/RYDE_App-strings/values/strings.xml"
+    path = input("enter file path to convert")
     convert_dot_to_under_bar(path)
